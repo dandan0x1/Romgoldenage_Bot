@@ -1,0 +1,31 @@
+{
+  "accounts": [
+    {
+      "name": "账户1",
+      "session_id": "YOUR_SESSION_ID_1",
+      "awsalb_cookie": "YOUR_AWSALB_COOKIE_1",
+      "proxy": "http://127.0.0.1:7890",
+      "enabled": true
+    },
+    {
+      "name": "账户2",
+      "session_id": "YOUR_SESSION_ID_2",
+      "awsalb_cookie": "YOUR_AWSALB_COOKIE_2",
+      "proxy": "http://127.0.0.1:7891",
+      "enabled": true
+    },
+    {
+      "name": "账户3",
+      "session_id": "YOUR_SESSION_ID_3",
+      "awsalb_cookie": "YOUR_AWSALB_COOKIE_3",
+      "proxy": "http://127.0.0.1:7892",
+      "enabled": false
+    }
+  ],
+  "settings": {
+    "request_delay": 1,
+    "timeout": 30,
+    "account_delay": 5,
+    "cycle_delay": 3600
+  }
+}
